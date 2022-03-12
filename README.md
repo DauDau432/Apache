@@ -11,20 +11,20 @@ sudo systemctl status apache2
 ```
 bật và khởi động dịch vụ Apache
 ```
-systemctl enable httpd
-systemctl start httpd
+sudo systemctl enable apache2
+sudo systemctl start apache2
 ```
 Để dừng Apache, dùng lệnh:
 ```
-systemctl stop httpd
+sudo systemctl stop apache2
 ```
 Lệnh khởi động lại Apache:
 ```
-systemctl restart httpd
+sudo systemctl restart apache2
 ```
 Tải lại dịch vụ Apache mỗi khi bạn thay đổi cấu hình:
 ```
-systemctl reload httpd
+sudo systemctl reload apache2
 ```
 
 ## Trên centos
