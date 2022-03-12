@@ -60,9 +60,30 @@ firewall-cmd --permanent --zone=public --add-service=http
 firewall-cmd --permanent --zone=public --add-service=https
 firewall-cmd --reload
 ```
-
-
-
+Hoặc các bạn copy đoạn lệnh dưới đây cho nhah 
+```
+sudo yum install httpd
+sudo service httpd start
+sudo service httpd status
+sudo chkconfig httpd on
+```
+Tạo trang đầu tiên
+```
+vi /var/www/html/index.html
+```
+Viết đoạn code bố cục đầu tiên cho trang 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>First Website</title>
+</head>
+<body>
+	<h1>First Website</h1>
+</body>
+</html>
+```
 
 
 
